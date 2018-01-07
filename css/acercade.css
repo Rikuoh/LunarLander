@@ -1,16 +1,1 @@
-body,html{
-	background-image:url("../img/fondo.jpg");
-	background-repeat:repeat;
-	height:100%;
-	font-family: Arial;
-}
-
-#contenedor {
-	background-image:url("../img/fondo_instrucciones.jpg");
-	border-style: ridge;
-	padding: 5%;
-}
-button {
-	font-family: Arial;
-	min-height: 70px;
-}
+body,html{background-image:url("../img/fondo.jpg");background-repeat:repeat;height:100%;font-family: Arial;}#contenedor{background-image:url("../img/fondo_instrucciones.jpg");border-style: ridge;padding: 5%;}button{font-family: Arial;min-height: 70px;}
