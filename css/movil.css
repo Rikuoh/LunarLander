@@ -1,0 +1,86 @@
+body,html{
+	background-image:url(../img/fondo.jpg);
+	background-repeat:repeat;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+#menu,#hidem{
+	display:none;
+}
+#level,#hidelevel{
+	display:none;
+}
+.a,.b,.c{
+	width:33.33%;
+	height:100%;
+	float:left;
+}
+.d{
+	height:10%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+}
+.d img{
+	width:100%;
+	height:100%;
+}
+#nave{
+	text-align:center;
+	position:fixed;
+	top:10%;
+	width:100%;
+	height:20%;
+}
+#nave img{
+	height:70%;
+}
+#cpanel{
+	position: absolute;
+	border-style:solid;
+	border-color:#97bdc9;
+	color:#fff;
+}
+#menu{ 
+	position: absolute;
+	top: 20%;
+	left:35%;
+	list-style-type:none;
+	width: 100%;
+}
+#level{ 
+	position: absolute;
+	list-style-type:none;
+	right:30%;
+}
+
+#menuInstrucciones {
+	margin: 5%;
+	background-image: url("../img/fondo_instrucciones.jpg");
+	text-align: center;
+	font-size: x-large;
+	border-style: outset;
+	position: absolute;
+	display: none;
+}
+
+#botoncontroles,#botonnivel,#botonreiniciar,#botonhidemenu,#botonacercade{
+	width:20%;
+}
+
+#botonajustes{
+	position:absolute;
+	width: 15%;
+	list-style-type:none;
+	top:30%;
+	left:1%;
+}
+
+#botonajustes:hover,#botonhidemenu:hover,#botonreiniciar:hover,#botonnivel:hover,#botoncontroles:hover,#botonacercade:hover,#botonvolver:hover,#botonfacil:hover,#botonnormal:hover,#botondificil:hover,#botonreplay:hover{
+	transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	-o-transform:scale(1.2)
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Lunar Lander</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/ordenador.css'>
+ <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/movil.css'>
+ <script src="js/normal.js"></script>
+</head>
+<body>
+ <div id="nave">
+  <img id=naveoff src="img/naveoff.png" alt="img nave">
+ </div>
+ <div class="a">
+ <div id="showm"><img id="botonajustes" src="img/botonajustes.png" alt="showmenu"></div>
+   <ul id="cpanel">
+    <li>Velocidad <span id="velocidad">100</span> m/s</li>
+    <li>Fuel <span id="fuel">100</span>%</li>
+    <li>Altura <span id="altura">60</span> m</li>
+   </ul>
+ </div>
+ <div class="b"></div>
+ <div class="c">
+  <div id="hidem">
+  </div>
+    <ul id="menu">
+      <li><img id="botonhidemenu" src="img/botonhidemenu.png" alt="hidemenu"></li>
+            <li><a href="normal.html"><img id="botonreiniciar" src="img/botonreiniciar.png" alt="botonreiniciar"></a></li>
+            <li><img id="botonnivel" src="img/botonnivel.png" alt="botonnivel"></li>
+            <li><img id="botoncontroles" src="img/botoncontroles.png" alt="botoncontroles"></li>
+            <li><a href="acercade.html"><img id="botonacercade" src="img/botonacercade.png" alt="acerca de"></a></li>
+    </ul>
+
+    <div id="hidelevel">
+  </div>
+    <ul id="level">
+            <li><a href="index.html"><img id="botonfacil" src="img/botonfacil.png" alt="botonfacil"></a></li>
+            <li><a href="normal.html"><img id="botonnormal" src="img/botonnormal.png" alt="botonnormal"></a></li>
+            <li><a href="dificil.html"><img id="botondificil" src="img/botondificil.png" alt="botondificil"></a></li>
+    </ul>
+ </div>
+ <div class="d"><img src="img/suelo.png" alt="suelo"></div>
+
+ <div id="menuInstrucciones">
+  <h3>INSTRUCCIONES</h3>
+  <p>El juego consiste en frenar la caída de la nave mediante el uso del motor, utiliza la tecla <b>&nbsp;&nbsp;espacio&nbsp;&nbsp;</b>, para que esta pueda aterrizar adecuadamente sobre la superficie lunar.<br><br>Si el jugador no frena lo suficientemente la caída de la nave a una <b>velocidad inferior a los 5 m/s </b>, esta se estrellará y el jugador no superará el juego.<br><br> Además hay que tener en cuenta que la nave cuenta con un medidor de gasolina que se acabará si el jugador abusa del uso del motor de la nave.</p>
+  <a href="normal.html"><button><h3>Volver al juego</h3></button></a>
+</body>
+</html>
