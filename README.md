@@ -1,4 +1,7 @@
 # Lunar Lander 
+## Daniel Ramón Campos
+### URL Rawgit: https://cdn.rawgit.com/Rikuoh/LunarLander/7082856e/index.html
+
 He creado varios documentos html, uno para las instrucciones del juego, y otros para cambiar el nivel de dificultad del mismo.
 
 Todas las imágenes han sido comprimidas desde la web https://tinypng.com/ y situadas en la carpeta img, así como también se ha separado el css en y el javascript en sus carpetas correspondientes.
