@@ -13,3 +13,12 @@ El juego contiene responsive css, para que sea posible jugar en diferentes tipos
 
 Podremos navegar por el menú, gracias al botón ajustes que está situado a la izquierda de la pantalla, el cual desplegará un menú y pausará el juego.
 
+# Versión de escritorio
+![Escritorio1](https://github.com/Rikuoh/OtrasCosas/blob/master/escritorio1.png)
+
+![Escritorio2](https://github.com/Rikuoh/OtrasCosas/blob/master/escritorio2.png)
+
+# Versión de móvil
+
+![Movil1](https://github.com/Rikuoh/OtrasCosas/blob/master/movil1.png)
+![Movil2](https://github.com/Rikuoh/OtrasCosas/blob/master/movil2.png)
